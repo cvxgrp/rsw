@@ -25,7 +25,7 @@ funs = [
 losses = [rsw.EqualityLoss(25), rsw.EqualityLoss(.5),
           rsw.EqualityLoss(5.3)]
 regularizer = rsw.EntropyRegularizer()
-w, out, sol = rsw.rsw(df, funs, losses, regularizer, 1.)
+w, out, sol = rsw.rsw(df, funs, losses, regularizer, 1., verbose=True)
 df["weight"] = w
 print(df.head())
 print(out)

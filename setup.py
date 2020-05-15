@@ -5,12 +5,16 @@ setup(
     version="0.1",
     author="Shane Barratt, Guillermo Angeris, Stephen Boyd",
     packages=find_packages(),
+    setup_requires=[
+        "numpy",
+    ],
     install_requires=[
-        "numpy >= 1.15",
-        "cvxpy >= 1.0",
-        "scipy >= 1.1",
-        "pandas >= 1.0",
-        "qdldl >= 0.1.0"],
+        "cvxpy",
+        "scipy",
+        "pandas",
+        "qdldl",
+        "matplotlib"
+    ],
     url="http://github.com/cvxgrp/rsw/",
     license="Apache License, Version 2.0",
     classifiers=[
