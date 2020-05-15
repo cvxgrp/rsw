@@ -1,0 +1,58 @@
+"fips","post_code","name","gnisid"
+"01","AL","Alabama",1779775
+"02","AK","Alaska",1785533
+"04","AZ","Arizona",1779777
+"05","AR","Arkansas",68085
+"06","CA","California",1779778
+"08","CO","Colorado",1779779
+"09","CT","Connecticut",1779780
+"10","DE","Delaware",1779781
+"11","DC","District of Columbia",1702382
+"12","FL","Florida",294478
+"13","GA","Georgia",1705317
+"15","HI","Hawaii",1779782
+"16","ID","Idaho",1779783
+"17","IL","Illinois",1779784
+"18","IN","Indiana",448508
+"19","IA","Iowa",1779785
+"20","KS","Kansas",481813
+"21","KY","Kentucky",1779786
+"22","LA","Louisiana",1629543
+"23","ME","Maine",1779787
+"24","MD","Maryland",1714934
+"25","MA","Massachusetts",606926
+"26","MI","Michigan",1779789
+"27","MN","Minnesota",662849
+"28","MS","Mississippi",1779790
+"29","MO","Missouri",1779791
+"30","MT","Montana",767982
+"31","NE","Nebraska",1779792
+"32","NV","Nevada",1779793
+"33","NH","New Hampshire",1779794
+"34","NJ","New Jersey",1779795
+"35","NM","New Mexico",897535
+"36","NY","New York",1779796
+"37","NC","North Carolina",1027616
+"38","ND","North Dakota",1779797
+"39","OH","Ohio",1085497
+"40","OK","Oklahoma",1102857
+"41","OR","Oregon",1155107
+"42","PA","Pennsylvania",1779798
+"44","RI","Rhode Island",1219835
+"45","SC","South Carolina",1779799
+"46","SD","South Dakota",1785534
+"47","TN","Tennessee",1325873
+"48","TX","Texas",1779801
+"49","UT","Utah",1455989
+"50","VT","Vermont",1779802
+"51","VA","Virginia",1779803
+"53","WA","Washington",1779804
+"54","WV","West Virginia",1779805
+"55","WI","Wisconsin",1779806
+"56","WY","Wyoming",1779807
+"60","AS","American Samoa",1802701
+"66","GU","Guam",1802705
+"69","MP","Northern Mariana Islands",1779809
+"72","PR","Puerto Rico",1779808
+"74","UM","U.S. Minor Outlying Islands",1878752
+"78","VI","U.S. Virgin Islands",1802710
