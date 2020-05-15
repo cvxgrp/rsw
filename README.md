@@ -63,7 +63,7 @@ $ python brfss.py
 ## Citing
 If you use rsw in your research, please consider citing us by using the following bibtex:
 ```
-@misc{agrawal2020differentiating,
+@misc{barratt2020optimal,
   title={Optimal Representative Sample Weighting},
   author={Barratt, Shane and Angeris, Guillermo and Boyd, Stephen},
   month={May},
