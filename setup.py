@@ -6,13 +6,13 @@ setup(
     author="Shane Barratt, Guillermo Angeris, Stephen Boyd",
     packages=find_packages(),
     setup_requires=[
-        "numpy",
+        "numpy>=1.15",
     ],
     install_requires=[
-        "cvxpy",
-        "scipy",
+        "cvxpy>=1.0",
+        "scipy>=1.4",
         "pandas",
-        "qdldl",
+        "qdldl>=0.1.1",
         "matplotlib"
     ],
     url="http://github.com/cvxgrp/rsw/",

@@ -14,13 +14,16 @@ class ZeroRegularizer():
 
 class EntropyRegularizer():
 
-    def __init__(self, limit=1):
-        assert limit >= 1
+    def __init__(self, limit=None):
+        if limit is not None and limit <= 1:
+            raise ArgumentError("limit is %.3f. It must be > 1." % limit)
         self.limit = limit
 
     def prox(self, w, lam):
         what = lam * np.real(lambertw(np.exp(w / lam - 1) / lam, tol=1e-12))
-        what = np.clip(what, 1 / (self.limit * w.size), self.limit / w.size)
+        if self.limit is not None:
+            what = np.clip(what, 1 / (self.limit * w.size),
+                           self.limit / w.size)
         return what
 
 
