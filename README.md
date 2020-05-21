@@ -8,6 +8,11 @@ For more details behind the math, we highly recommend checking out the paper.
 
 ## Installation
 
+We *highly recommend* upgrading your version of pip before installing `rsw`:
+```bash
+$ pip install --upgrade pip
+```
+
 Clone the repository, then run:
 ```bash
 $ python setup.py install
