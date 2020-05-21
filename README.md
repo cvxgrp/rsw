@@ -18,11 +18,6 @@ Clone the repository, then run:
 $ python setup.py install
 ```
 
-You might consider installing the required packages using pip:
-```bash
-$ pip install numpy scipy cvxpy qdldl pandas matplotlib
-```
-
 ## API
 `rsw` exposes one method, with the signature
 ```
